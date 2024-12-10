@@ -1,0 +1,23 @@
+@keyframes panBackground {
+    0% {
+      background-position: 0% 50%;
+    }
+    100% {
+      background-position: 100% 50%;
+    }
+  }
+  
+  .animate-bg-pan {
+    background: linear-gradient(270deg, #1e293b, #111827, #374151);
+    background-size: 400% 400%;
+    animation: panBackground 15s infinite linear;
+  }
+  
+  .bg-building-pattern {
+    /* background-image: url('/drone-building-pattern.jpg'); */
+     /* Replace with your segmented building image */
+    background-image: url('https://images.unsplash.com/photo-1508861147305-f48512b7a29b?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGRyb25lc3xlbnwwfHwwfHx8MA%3D%3D'); /* Replace with your segmented building image */
+    background-size: cover;
+    background-position: center;
+  }
+  
